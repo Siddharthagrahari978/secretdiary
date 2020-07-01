@@ -1,6 +1,6 @@
 <?php
 
-$link=mysqli_connect("shareddb-q.hosting.stackcp.net","secreteDairyUsers-313137886e","zuelm83izv","secreteDairyUsers-313137886e");
+$link=mysqli_connect("<host_name>","<database_username>","<passsword>","<database_name>");
   if(mysqli_connect_error()){die("Database Connection Error.");}
 
 ?>
